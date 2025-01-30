@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "nombre": "VVS Switch",
+  "costeMana": 100,
+  "color": "Negro",
+  "rareza": "Rara",
+  "textoReglas": "si",
+  "fuerzaResistencia": [],
+  "valorMercado": 4000
+}
