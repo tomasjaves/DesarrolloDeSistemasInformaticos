@@ -1,0 +1,3 @@
+theme: jekyll-theme-cayman
+title: Informe de Práctica 2 - Instalación y configuración de Visual Studio Code
+description: En este informe abordaremos el proceso de la instalación y configuración de nuestro entorno de trabajo, Visual Studio Code. En adición, desarrollaremos un código en TypeScript y aprenderemos a usar ESLint y Prettier.
