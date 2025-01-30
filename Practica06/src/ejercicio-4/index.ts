@@ -1,0 +1,20 @@
+import { Printer } from "./Printer";
+import { Scanner } from "./Scanner";
+import { PrinterScanner } from "./PrinterScanner";
+
+console.log("Impresora:");
+const printer = new Printer();
+printer.print();
+printer.printDuplex();
+console.log();
+console.log("Escáner:");
+const scanner = new Scanner();
+scanner.scan();
+scanner.scanColor();
+console.log();
+console.log("Impresora y escáner:");
+const printerScanner = new PrinterScanner();
+printerScanner.print();
+printerScanner.printDuplex();
+printerScanner.scan();
+printerScanner.scanColor();

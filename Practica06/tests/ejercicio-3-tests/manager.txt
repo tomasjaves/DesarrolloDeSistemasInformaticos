@@ -1,0 +1,1 @@
+Nuevo contenido de prueba para los tests de FileManager con mocha y chai.
