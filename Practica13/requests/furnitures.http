@@ -1,0 +1,94 @@
+
+### Post new Customer
+
+POST https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures
+Content-Type: application/json
+
+{
+  "name": "silla",
+  "productCode": "20394256701A9823B",
+  "material": "wood",
+  "height": 140,
+  "width": 100,
+  "depth": 100,
+  "warranty": 365,
+  "color": "brown",
+  "prize": 40
+}
+
+### An other post
+
+POST https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures
+Content-Type: application/json
+
+{
+  "name": "papelera",
+  "productCode": "AFAAIJE29381092",
+  "material": "plastic",
+  "height": 140,
+  "width": 100,
+  "depth": 100,
+  "warranty": 365,
+  "color": "white",
+  "prize": 20
+}
+
+### An other post
+
+POST https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures
+Content-Type: application/json
+
+{
+  "name": "mesa",
+  "productCode": "aIE29031ADIFJ",
+  "material": "wood",
+  "height": 140,
+  "width": 100,
+  "depth": 100,
+  "warranty": 365,
+  "color": "brown",
+  "prize": 20
+}
+
+### Get all
+
+GET https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures
+
+### Get with one param
+
+GET https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures?name=silla
+
+### Get by color
+
+GET https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures?color=brown
+
+### Get with multiple params
+
+GET https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures?name=silla&material=plastic
+
+### delete furniture
+
+DELETE https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures?name=mesa
+
+
+### delete furniture from id
+
+DELETE https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures/663d3375d41706dcaee729ac
+
+### patch furniture
+
+PATCH https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures?productCode=20394272341A9823B
+Content-Type: application/json
+
+{
+  "color": "red"
+}
+
+### patch from id
+
+PATCH https://ull-esit-inf-dsi-23-24-prct13-dsikea-api-3m1d.onrender.com/furnitures/663d1d24122d11114e13cc26
+Content-Type: application/json
+
+{
+  "name": "planta"
+}
