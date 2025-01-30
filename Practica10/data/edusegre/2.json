@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "nombre": "Lotus",
+  "costeMana": 300,
+  "color": "Negro",
+  "líneaTipo": "Artefacto",
+  "rareza": "Rara",
+  "textoReglas": "Prueba",
+  "fuerzaResistencia": [],
+  "marcasLealtad": 5,
+  "valorMercado": 100000
+}

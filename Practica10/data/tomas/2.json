@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "nombre": "Serra Angel",
+  "costeMana": 10000,
+  "color": "Multicolor",
+  "líneaTipo": "Criatura",
+  "rareza": "Infrecuente",
+  "textoReglas": "Prueba",
+  "marcasLealtad": 5,
+  "valorMercado": 100000
+}

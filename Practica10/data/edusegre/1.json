@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "nombre": "Black Lotus",
+  "costeMana": 10000,
+  "color": "Azul",
+  "líneaTipo": "Tierra",
+  "rareza": "Mítica",
+  "textoReglas": "Prueba",
+  "fuerzaResistencia": [],
+  "marcasLealtad": 5,
+  "valorMercado": 100000
+}
