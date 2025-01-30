@@ -1,0 +1,42 @@
+{
+  "furniture": [
+    {
+      "id": "0",
+      "name": "mesa",
+      "description": "",
+      "material": "madera",
+      "dimensions": "",
+      "price": 200,
+      "quantity": 1
+    },
+    {
+      "id": "1",
+      "name": "cuadro",
+      "description": "",
+      "material": "bonito",
+      "dimensions": "",
+      "price": 20,
+      "quantity": 5
+    },
+    {
+      "id": "2",
+      "name": "sofa",
+      "description": "",
+      "material": "algodon",
+      "dimensions": "",
+      "price": 4032,
+      "quantity": 3
+    },
+    {
+      "id": "3",
+      "name": "chimenea",
+      "description": "",
+      "material": "hierro",
+      "dimensions": "",
+      "price": 100,
+      "quantity": 1
+    }
+  ],
+  "suppliers": [],
+  "clients": []
+}
