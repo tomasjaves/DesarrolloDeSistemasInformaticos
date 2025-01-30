@@ -1,0 +1,30 @@
+{
+  "name": "ull-esit-inf-dsi-23-24-prct04-arrays-tuples-enums-alu0101515458",
+  "version": "1.0.0",
+  "description": "",
+  "main": "// ARCHIVO_MAIN.JS (EL QUE SE VA A EJECUTAR)",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "doc": "typedoc",
+    "test": "nyc mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "chai": "^4.4.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "mocha": "^10.3.0",
+    "nyc": "^15.1.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.0.4",
+    "typedoc": "^0.25.8",
+    "typescript": "^5.3.3"
+  }
+}
